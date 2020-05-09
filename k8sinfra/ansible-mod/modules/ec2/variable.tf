@@ -29,10 +29,10 @@ variable "instance_tags" {
   type = "string"
   #default = ["Ansible-Master", "Ansible-Node1","Ansible-Node2"]
 }
-#variable "security_group" {
-  #default = "sg-01d0657887a80ee04"
-#  description = "Security groups for the instance"
-#}
+variable "security_group" {
+default = "sg-0e5646f0875601f7a"
+  description = "Security groups for the instance"
+}
 variable "vpc_security_group_ids" {
  type = "string"
 }

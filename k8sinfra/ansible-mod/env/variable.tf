@@ -24,7 +24,7 @@ variable "key_name" {
 
 variable "instance_tags" {
   type = "list"
-  default = ["Ansible-Master", "Ansible-Node"]
+  default = ["k8s-Master", "k8s-Node"]
 }
 variable "security_group" {
   default = "sg-0e0472445492423fa"
