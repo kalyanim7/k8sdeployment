@@ -13,8 +13,8 @@ spec:
             app: nginx-sample
       spec:
          containers:
-           - name: nginx-container
-             image: nginx:latest
+           - name: k8scontainer
+             image: munireddy1/k8simage:v1
              ports:
-             - containerPort: 80
+             - containerPort: 8000
                hostPort: 30011
