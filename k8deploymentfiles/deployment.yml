@@ -14,7 +14,7 @@ spec:
       spec:
          containers:
            - name: k8scontainer
-             image: munireddy1/k8simage:v1
+             image: munireddy1/k8simage:v3
              ports:
              - containerPort: 8000
                hostPort: 30011
